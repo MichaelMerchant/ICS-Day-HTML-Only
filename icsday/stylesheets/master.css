@@ -1,0 +1,139 @@
+/*
+Title: Master styles for screen media
+Author: Hunter Gillane
+*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:  #000;
+	font-size: 62.5%;
+/*	background-color: ;*/
+	background: #000 url(../images/robotbg.jpg) no-repeat 50% 10%;
+}
+
+/* links */
+
+a:link, a:visited {
+	color: #369;
+	outline: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #36c;
+}
+
+/* page structure
+--------------------------------------------- */
+
+#wrap {
+	
+}
+#header {
+	font-size: 38px;
+        margin-top: 40%;
+
+}
+#main_wrapper {
+	margin-top: 20px;
+	padding-top: 40px;
+	background: #00aba5 url(../images/main_bg.png) repeat-x 0 0;
+}
+#main {
+	width: 800px;
+	margin: 0 auto;
+}
+#content_main {
+	float: left;
+	width: 500px;
+}
+#secondary {
+	float: right;
+	width: 250px;
+}
+#footer {
+	
+}
+
+/* header
+--------------------------------------------- */
+
+#logo {
+	/*margin-left:490px;*/
+	position: absolute;
+	top: 300px;
+	
+}
+
+/* nav */
+
+#nav {
+	
+}
+
+/* main styles
+--------------------------------------------- */
+#content_main h2 {
+	font-size: 48px;
+	margin: 0 0 12px 0;
+	color: #fff;
+}
+#content_main h3 {
+	font-size: 30px;
+	margin: 12px 0;
+	color: #fff;
+}
+#content_main p {
+	font-size: 17px;
+}
+#content_main #events li {
+	margin-top: 5px;
+	margin-right: 10px;
+	float: left;
+	width: 180px;
+	border: 6px solid #e6edd9;
+	-moz-border-radius: 4px;
+	background-color: #e6edd9;
+}
+/* secondary style
+--------------------------------------------- */
+#secondary h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 28px;
+	padding: 10px 0;
+}
+#secondary p {
+	font-size: 14px;
+	line-height: 1.1em;
+	margin: 8px;
+	color: #000;
+}
+
+/* footer
+--------------------------------------------- */
+
+#footer {
+	background-color: #00aba5;
+	color: #00aba5;
+}
+
+/* misc
+--------------------------------------------- */
+
+hr, .hide {
+	display: none;
+}
+a img {
+	border: 0;
+}
+
+/* self-clear floats */
+
+.group:after {
+	content: '.';
+	display: block;
+	height:  0;
+	clear:  both;
+	visibility:  hidden;
+}
